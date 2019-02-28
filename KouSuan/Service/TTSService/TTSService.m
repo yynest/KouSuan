@@ -7,13 +7,10 @@
 //
 
 #import "TTSService.h"
+#import "ComDefined.h"
 #import "BDSSpeechSynthesizer.h"
 #import <AVFoundation/AVFoundation.h>
 
-//#error 请在官网新建app，配置bundleId，并在此填写相关参数
-NSString* APP_ID = @"15641547";
-NSString* API_KEY = @"gmAOIGkRApa4whBBczmqkLUL";
-NSString* SECRET_KEY = @"UdKVSCFAT4H1XA3j6z8wGN0rdr7dsVIM";
 
 @implementation TTSService
 

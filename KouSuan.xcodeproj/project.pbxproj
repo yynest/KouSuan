@@ -35,6 +35,17 @@
 		9F1764A82227857800F4BFD9 /* Chinese_And_English_Text.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764A32227857800F4BFD9 /* Chinese_And_English_Text.dat */; };
 		9F1764C3222785D600F4BFD9 /* .gitIgnore in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764AB222785D600F4BFD9 /* .gitIgnore */; };
 		9F1764C922278C3900F4BFD9 /* TTSService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1764C822278C3900F4BFD9 /* TTSService.m */; };
+		9F1764E72227C8FC00F4BFD9 /* bds_easr_basic_model.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764CC2227C8FC00F4BFD9 /* bds_easr_basic_model.dat */; };
+		9F1764E82227C8FC00F4BFD9 /* bds_easr_dnn_wakeup_model.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764CD2227C8FC00F4BFD9 /* bds_easr_dnn_wakeup_model.dat */; };
+		9F1764E92227C8FC00F4BFD9 /* bds_easr_gramm.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764CE2227C8FC00F4BFD9 /* bds_easr_gramm.dat */; };
+		9F1764EA2227C8FC00F4BFD9 /* bds_easr_input_model.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764CF2227C8FC00F4BFD9 /* bds_easr_input_model.dat */; };
+		9F1764EB2227C8FC00F4BFD9 /* bds_easr_mfe_cmvn.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764D02227C8FC00F4BFD9 /* bds_easr_mfe_cmvn.dat */; };
+		9F1764EC2227C8FC00F4BFD9 /* bds_easr_mfe_dnn.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764D12227C8FC00F4BFD9 /* bds_easr_mfe_dnn.dat */; };
+		9F1764ED2227C8FC00F4BFD9 /* bds_easr_wakeup_words.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764D22227C8FC00F4BFD9 /* bds_easr_wakeup_words.dat */; };
+		9F1764EE2227C8FC00F4BFD9 /* bds_license.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764D32227C8FC00F4BFD9 /* bds_license.dat */; };
+		9F1764EF2227C8FC00F4BFD9 /* temp_license_2018-02-24.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764D42227C8FC00F4BFD9 /* temp_license_2018-02-24.dat */; };
+		9F1765002227C93A00F4BFD9 /* BDSClientResources in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764FF2227C93A00F4BFD9 /* BDSClientResources */; };
+		9F1765042227CA0F00F4BFD9 /* ASRService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1765032227CA0F00F4BFD9 /* ASRService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +124,19 @@
 		9F1764C2222785D600F4BFD9 /* BDSTTSEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSTTSEventManager.h; sourceTree = "<group>"; };
 		9F1764C722278C3900F4BFD9 /* TTSService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSService.h; sourceTree = "<group>"; };
 		9F1764C822278C3900F4BFD9 /* TTSService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSService.m; sourceTree = "<group>"; };
+		9F1764CC2227C8FC00F4BFD9 /* bds_easr_basic_model.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = bds_easr_basic_model.dat; sourceTree = "<group>"; };
+		9F1764CD2227C8FC00F4BFD9 /* bds_easr_dnn_wakeup_model.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = bds_easr_dnn_wakeup_model.dat; sourceTree = "<group>"; };
+		9F1764CE2227C8FC00F4BFD9 /* bds_easr_gramm.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bds_easr_gramm.dat; sourceTree = "<group>"; };
+		9F1764CF2227C8FC00F4BFD9 /* bds_easr_input_model.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = bds_easr_input_model.dat; sourceTree = "<group>"; };
+		9F1764D02227C8FC00F4BFD9 /* bds_easr_mfe_cmvn.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bds_easr_mfe_cmvn.dat; sourceTree = "<group>"; };
+		9F1764D12227C8FC00F4BFD9 /* bds_easr_mfe_dnn.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = bds_easr_mfe_dnn.dat; sourceTree = "<group>"; };
+		9F1764D22227C8FC00F4BFD9 /* bds_easr_wakeup_words.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = bds_easr_wakeup_words.dat; sourceTree = "<group>"; };
+		9F1764D32227C8FC00F4BFD9 /* bds_license.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bds_license.dat; sourceTree = "<group>"; };
+		9F1764D42227C8FC00F4BFD9 /* temp_license_2018-02-24.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "temp_license_2018-02-24.dat"; sourceTree = "<group>"; };
+		9F1764FF2227C93A00F4BFD9 /* BDSClientResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BDSClientResources; sourceTree = "<group>"; };
+		9F1765022227CA0F00F4BFD9 /* ASRService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASRService.h; sourceTree = "<group>"; };
+		9F1765032227CA0F00F4BFD9 /* ASRService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASRService.m; sourceTree = "<group>"; };
+		9F1765052227CAB700F4BFD9 /* ComDefined.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComDefined.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +274,7 @@
 		9F17649D2227855000F4BFD9 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				9F1764CA2227C8FC00F4BFD9 /* ASR */,
 				9F17649E2227857800F4BFD9 /* TTS */,
 			);
 			path = Resource;
@@ -323,6 +348,7 @@
 		9F1764C422278AB200F4BFD9 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				9F1765012227C9EC00F4BFD9 /* ASR */,
 				9F1764C622278B8500F4BFD9 /* TTSService */,
 			);
 			path = Service;
@@ -331,6 +357,7 @@
 		9F1764C522278ADE00F4BFD9 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				9F1765052227CAB700F4BFD9 /* ComDefined.h */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -342,6 +369,40 @@
 				9F1764C822278C3900F4BFD9 /* TTSService.m */,
 			);
 			path = TTSService;
+			sourceTree = "<group>";
+		};
+		9F1764CA2227C8FC00F4BFD9 /* ASR */ = {
+			isa = PBXGroup;
+			children = (
+				9F1764CB2227C8FC00F4BFD9 /* BDSClientEASRResources */,
+				9F1764FF2227C93A00F4BFD9 /* BDSClientResources */,
+			);
+			path = ASR;
+			sourceTree = "<group>";
+		};
+		9F1764CB2227C8FC00F4BFD9 /* BDSClientEASRResources */ = {
+			isa = PBXGroup;
+			children = (
+				9F1764CC2227C8FC00F4BFD9 /* bds_easr_basic_model.dat */,
+				9F1764CD2227C8FC00F4BFD9 /* bds_easr_dnn_wakeup_model.dat */,
+				9F1764CE2227C8FC00F4BFD9 /* bds_easr_gramm.dat */,
+				9F1764CF2227C8FC00F4BFD9 /* bds_easr_input_model.dat */,
+				9F1764D02227C8FC00F4BFD9 /* bds_easr_mfe_cmvn.dat */,
+				9F1764D12227C8FC00F4BFD9 /* bds_easr_mfe_dnn.dat */,
+				9F1764D22227C8FC00F4BFD9 /* bds_easr_wakeup_words.dat */,
+				9F1764D32227C8FC00F4BFD9 /* bds_license.dat */,
+				9F1764D42227C8FC00F4BFD9 /* temp_license_2018-02-24.dat */,
+			);
+			path = BDSClientEASRResources;
+			sourceTree = "<group>";
+		};
+		9F1765012227C9EC00F4BFD9 /* ASR */ = {
+			isa = PBXGroup;
+			children = (
+				9F1765022227CA0F00F4BFD9 /* ASRService.h */,
+				9F1765032227CA0F00F4BFD9 /* ASRService.m */,
+			);
+			path = ASR;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -449,13 +510,23 @@
 			files = (
 				9F1764C3222785D600F4BFD9 /* .gitIgnore in Resources */,
 				9F1764A82227857800F4BFD9 /* Chinese_And_English_Text.dat in Resources */,
+				9F1764E82227C8FC00F4BFD9 /* bds_easr_dnn_wakeup_model.dat in Resources */,
+				9F1764EE2227C8FC00F4BFD9 /* bds_license.dat in Resources */,
 				9F1764A52227857800F4BFD9 /* Chinese_And_English_Speech_Female.dat in Resources */,
+				9F1765002227C93A00F4BFD9 /* BDSClientResources in Resources */,
+				9F1764EC2227C8FC00F4BFD9 /* bds_easr_mfe_dnn.dat in Resources */,
 				9F1764A72227857800F4BFD9 /* Chinese_And_English_Speech_Male.dat in Resources */,
+				9F1764EA2227C8FC00F4BFD9 /* bds_easr_input_model.dat in Resources */,
 				9F17649B222782A600F4BFD9 /* .gitignore in Resources */,
+				9F1764E92227C8FC00F4BFD9 /* bds_easr_gramm.dat in Resources */,
+				9F1764EF2227C8FC00F4BFD9 /* temp_license_2018-02-24.dat in Resources */,
 				9F14217222267F290009037D /* LaunchScreen.storyboard in Resources */,
 				9F14216F22267F290009037D /* Assets.xcassets in Resources */,
+				9F1764ED2227C8FC00F4BFD9 /* bds_easr_wakeup_words.dat in Resources */,
 				9F14216D22267F190009037D /* Main.storyboard in Resources */,
+				9F1764EB2227C8FC00F4BFD9 /* bds_easr_mfe_cmvn.dat in Resources */,
 				9F1764A42227857800F4BFD9 /* Chinese_And_English_Speech_DYY.dat in Resources */,
+				9F1764E72227C8FC00F4BFD9 /* bds_easr_basic_model.dat in Resources */,
 				9F1764A62227857800F4BFD9 /* Chinese_And_English_Speech_Male-yyjw.dat in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +556,7 @@
 				9F14217522267F290009037D /* main.m in Sources */,
 				9F14216722267F190009037D /* AppDelegate.m in Sources */,
 				9F1764C922278C3900F4BFD9 /* TTSService.m in Sources */,
+				9F1765042227CA0F00F4BFD9 /* ASRService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
