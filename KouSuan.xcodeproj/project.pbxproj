@@ -26,15 +26,12 @@
 		9F1764922227819C00F4BFD9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F1764912227819C00F4BFD9 /* CFNetwork.framework */; };
 		9F176494222781D600F4BFD9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F176493222781D600F4BFD9 /* CoreLocation.framework */; };
 		9F176496222781E500F4BFD9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F176495222781E500F4BFD9 /* CoreTelephony.framework */; };
-		9F17649B222782A600F4BFD9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9F176499222782A600F4BFD9 /* .gitignore */; };
-		9F17649C222782A600F4BFD9 /* libBaiduSpeechSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F17649A222782A600F4BFD9 /* libBaiduSpeechSDK.a */; };
 		9F1764A42227857800F4BFD9 /* Chinese_And_English_Speech_DYY.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9F17649F2227857800F4BFD9 /* Chinese_And_English_Speech_DYY.dat */; };
 		9F1764A52227857800F4BFD9 /* Chinese_And_English_Speech_Female.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764A02227857800F4BFD9 /* Chinese_And_English_Speech_Female.dat */; };
 		9F1764A62227857800F4BFD9 /* Chinese_And_English_Speech_Male-yyjw.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764A12227857800F4BFD9 /* Chinese_And_English_Speech_Male-yyjw.dat */; };
 		9F1764A72227857800F4BFD9 /* Chinese_And_English_Speech_Male.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764A22227857800F4BFD9 /* Chinese_And_English_Speech_Male.dat */; };
 		9F1764A82227857800F4BFD9 /* Chinese_And_English_Text.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764A32227857800F4BFD9 /* Chinese_And_English_Text.dat */; };
 		9F1764C3222785D600F4BFD9 /* .gitIgnore in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764AB222785D600F4BFD9 /* .gitIgnore */; };
-		9F1764C922278C3900F4BFD9 /* TTSService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1764C822278C3900F4BFD9 /* TTSService.m */; };
 		9F1764E72227C8FC00F4BFD9 /* bds_easr_basic_model.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764CC2227C8FC00F4BFD9 /* bds_easr_basic_model.dat */; };
 		9F1764E82227C8FC00F4BFD9 /* bds_easr_dnn_wakeup_model.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764CD2227C8FC00F4BFD9 /* bds_easr_dnn_wakeup_model.dat */; };
 		9F1764E92227C8FC00F4BFD9 /* bds_easr_gramm.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764CE2227C8FC00F4BFD9 /* bds_easr_gramm.dat */; };
@@ -46,6 +43,9 @@
 		9F1764EF2227C8FC00F4BFD9 /* temp_license_2018-02-24.dat in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764D42227C8FC00F4BFD9 /* temp_license_2018-02-24.dat */; };
 		9F1765002227C93A00F4BFD9 /* BDSClientResources in Resources */ = {isa = PBXBuildFile; fileRef = 9F1764FF2227C93A00F4BFD9 /* BDSClientResources */; };
 		9F1765042227CA0F00F4BFD9 /* ASRService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1765032227CA0F00F4BFD9 /* ASRService.m */; };
+		9FA4C5E0222E2076007CDDE2 /* libBaiduSpeechSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA4C5DE222E2076007CDDE2 /* libBaiduSpeechSDK.a */; };
+		9FA4C5E1222E2076007CDDE2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9FA4C5DF222E2076007CDDE2 /* .gitignore */; };
+		9FA4C5E4222E20B2007CDDE2 /* TTSService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA4C5E3222E20B2007CDDE2 /* TTSService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,8 +93,6 @@
 		9F1764912227819C00F4BFD9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		9F176493222781D600F4BFD9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		9F176495222781E500F4BFD9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		9F176499222782A600F4BFD9 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		9F17649A222782A600F4BFD9 /* libBaiduSpeechSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduSpeechSDK.a; sourceTree = "<group>"; };
 		9F17649F2227857800F4BFD9 /* Chinese_And_English_Speech_DYY.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chinese_And_English_Speech_DYY.dat; sourceTree = "<group>"; };
 		9F1764A02227857800F4BFD9 /* Chinese_And_English_Speech_Female.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chinese_And_English_Speech_Female.dat; sourceTree = "<group>"; };
 		9F1764A12227857800F4BFD9 /* Chinese_And_English_Speech_Male-yyjw.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chinese_And_English_Speech_Male-yyjw.dat"; sourceTree = "<group>"; };
@@ -112,18 +110,6 @@
 		9F1764B5222785D600F4BFD9 /* BDRecognizerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDRecognizerViewDelegate.h; sourceTree = "<group>"; };
 		9F1764B6222785D600F4BFD9 /* BDRecognizerViewParamsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDRecognizerViewParamsObject.h; sourceTree = "<group>"; };
 		9F1764B7222785D600F4BFD9 /* BDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDTheme.h; sourceTree = "<group>"; };
-		9F1764B9222785D600F4BFD9 /* BDS_EttsModelManagerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDS_EttsModelManagerInterface.h; sourceTree = "<group>"; };
-		9F1764BA222785D600F4BFD9 /* BDSBuiltInPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSBuiltInPlayer.h; sourceTree = "<group>"; };
-		9F1764BB222785D600F4BFD9 /* BDSMixedModeSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSMixedModeSynthesizer.h; sourceTree = "<group>"; };
-		9F1764BC222785D600F4BFD9 /* BDSSpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizer.h; sourceTree = "<group>"; };
-		9F1764BD222785D600F4BFD9 /* BDSSpeechSynthesizerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerDelegate.h; sourceTree = "<group>"; };
-		9F1764BE222785D600F4BFD9 /* BDSSpeechSynthesizerErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerErrors.h; sourceTree = "<group>"; };
-		9F1764BF222785D600F4BFD9 /* BDSSpeechSynthesizerParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerParams.h; sourceTree = "<group>"; };
-		9F1764C0222785D600F4BFD9 /* BDSSynthesizerLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSynthesizerLogLevel.h; sourceTree = "<group>"; };
-		9F1764C1222785D600F4BFD9 /* BDSSynthesizerStatusNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSynthesizerStatusNotifications.h; sourceTree = "<group>"; };
-		9F1764C2222785D600F4BFD9 /* BDSTTSEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSTTSEventManager.h; sourceTree = "<group>"; };
-		9F1764C722278C3900F4BFD9 /* TTSService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSService.h; sourceTree = "<group>"; };
-		9F1764C822278C3900F4BFD9 /* TTSService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSService.m; sourceTree = "<group>"; };
 		9F1764CC2227C8FC00F4BFD9 /* bds_easr_basic_model.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = bds_easr_basic_model.dat; sourceTree = "<group>"; };
 		9F1764CD2227C8FC00F4BFD9 /* bds_easr_dnn_wakeup_model.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = bds_easr_dnn_wakeup_model.dat; sourceTree = "<group>"; };
 		9F1764CE2227C8FC00F4BFD9 /* bds_easr_gramm.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bds_easr_gramm.dat; sourceTree = "<group>"; };
@@ -137,6 +123,21 @@
 		9F1765022227CA0F00F4BFD9 /* ASRService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASRService.h; sourceTree = "<group>"; };
 		9F1765032227CA0F00F4BFD9 /* ASRService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASRService.m; sourceTree = "<group>"; };
 		9F1765052227CAB700F4BFD9 /* ComDefined.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComDefined.h; sourceTree = "<group>"; };
+		9FA4C5D3222E12C9007CDDE2 /* BDSSynthesizerStatusNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSynthesizerStatusNotifications.h; sourceTree = "<group>"; };
+		9FA4C5D4222E12C9007CDDE2 /* BDSSpeechSynthesizerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerDelegate.h; sourceTree = "<group>"; };
+		9FA4C5D5222E12C9007CDDE2 /* BDS_EttsModelManagerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDS_EttsModelManagerInterface.h; sourceTree = "<group>"; };
+		9FA4C5D6222E12C9007CDDE2 /* BDSBuiltInPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSBuiltInPlayer.h; sourceTree = "<group>"; };
+		9FA4C5D7222E12C9007CDDE2 /* BDSMixedModeSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSMixedModeSynthesizer.h; sourceTree = "<group>"; };
+		9FA4C5D8222E12C9007CDDE2 /* BDSSpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizer.h; sourceTree = "<group>"; };
+		9FA4C5D9222E12C9007CDDE2 /* BDSSpeechSynthesizerParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerParams.h; sourceTree = "<group>"; };
+		9FA4C5DA222E12C9007CDDE2 /* BDSSynthesizerLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSynthesizerLogLevel.h; sourceTree = "<group>"; };
+		9FA4C5DB222E12C9007CDDE2 /* BDSTTSEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSTTSEventManager.h; sourceTree = "<group>"; };
+		9FA4C5DC222E12C9007CDDE2 /* BDSSpeechSynthesizerErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerErrors.h; sourceTree = "<group>"; };
+		9FA4C5DE222E2076007CDDE2 /* libBaiduSpeechSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduSpeechSDK.a; sourceTree = "<group>"; };
+		9FA4C5DF222E2076007CDDE2 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		9FA4C5E2222E20B2007CDDE2 /* TTSService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSService.h; sourceTree = "<group>"; };
+		9FA4C5E3222E20B2007CDDE2 /* TTSService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSService.m; sourceTree = "<group>"; };
+		9FEB2FF4222E061D00643F9D /* libBaiduSpeechSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBaiduSpeechSDK.a; path = KouSuan/ThirdCode/BDSClientLib/libBaiduSpeechSDK.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +153,7 @@
 				9F17648C2227817300F4BFD9 /* SystemConfiguration.framework in Frameworks */,
 				9F17648A2227814500F4BFD9 /* GLKit.framework in Frameworks */,
 				9F1764882227813700F4BFD9 /* libz.1.2.5.tbd in Frameworks */,
-				9F17649C222782A600F4BFD9 /* libBaiduSpeechSDK.a in Frameworks */,
+				9FA4C5E0222E2076007CDDE2 /* libBaiduSpeechSDK.a in Frameworks */,
 				9F1764862227812400F4BFD9 /* libc++.tbd in Frameworks */,
 				9F1764842227811600F4BFD9 /* libiconv.2.4.0.tbd in Frameworks */,
 				9F1764822227810400F4BFD9 /* libsqlite3.0.tbd in Frameworks */,
@@ -238,6 +239,7 @@
 		9F1764802227810400F4BFD9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9FEB2FF4222E061D00643F9D /* libBaiduSpeechSDK.a */,
 				9F176495222781E500F4BFD9 /* CoreTelephony.framework */,
 				9F176493222781D600F4BFD9 /* CoreLocation.framework */,
 				9F1764912227819C00F4BFD9 /* CFNetwork.framework */,
@@ -256,19 +258,10 @@
 		9F1764972227824C00F4BFD9 /* ThirdCode */ = {
 			isa = PBXGroup;
 			children = (
+				9FA4C5DD222E2076007CDDE2 /* BDSClientLib */,
 				9F1764A9222785D600F4BFD9 /* BDSClientHeaders */,
-				9F176498222782A600F4BFD9 /* BDSClientLib */,
 			);
 			path = ThirdCode;
-			sourceTree = "<group>";
-		};
-		9F176498222782A600F4BFD9 /* BDSClientLib */ = {
-			isa = PBXGroup;
-			children = (
-				9F176499222782A600F4BFD9 /* .gitignore */,
-				9F17649A222782A600F4BFD9 /* libBaiduSpeechSDK.a */,
-			);
-			path = BDSClientLib;
 			sourceTree = "<group>";
 		};
 		9F17649D2227855000F4BFD9 /* Resource */ = {
@@ -295,8 +288,8 @@
 		9F1764A9222785D600F4BFD9 /* BDSClientHeaders */ = {
 			isa = PBXGroup;
 			children = (
+				9FA4C5D2222E12C9007CDDE2 /* TTS */,
 				9F1764AA222785D600F4BFD9 /* ASR */,
-				9F1764B8222785D600F4BFD9 /* TTS */,
 			);
 			path = BDSClientHeaders;
 			sourceTree = "<group>";
@@ -328,23 +321,6 @@
 			path = UIHeaders;
 			sourceTree = "<group>";
 		};
-		9F1764B8222785D600F4BFD9 /* TTS */ = {
-			isa = PBXGroup;
-			children = (
-				9F1764B9222785D600F4BFD9 /* BDS_EttsModelManagerInterface.h */,
-				9F1764BA222785D600F4BFD9 /* BDSBuiltInPlayer.h */,
-				9F1764BB222785D600F4BFD9 /* BDSMixedModeSynthesizer.h */,
-				9F1764BC222785D600F4BFD9 /* BDSSpeechSynthesizer.h */,
-				9F1764BD222785D600F4BFD9 /* BDSSpeechSynthesizerDelegate.h */,
-				9F1764BE222785D600F4BFD9 /* BDSSpeechSynthesizerErrors.h */,
-				9F1764BF222785D600F4BFD9 /* BDSSpeechSynthesizerParams.h */,
-				9F1764C0222785D600F4BFD9 /* BDSSynthesizerLogLevel.h */,
-				9F1764C1222785D600F4BFD9 /* BDSSynthesizerStatusNotifications.h */,
-				9F1764C2222785D600F4BFD9 /* BDSTTSEventManager.h */,
-			);
-			path = TTS;
-			sourceTree = "<group>";
-		};
 		9F1764C422278AB200F4BFD9 /* Service */ = {
 			isa = PBXGroup;
 			children = (
@@ -365,8 +341,8 @@
 		9F1764C622278B8500F4BFD9 /* TTSService */ = {
 			isa = PBXGroup;
 			children = (
-				9F1764C722278C3900F4BFD9 /* TTSService.h */,
-				9F1764C822278C3900F4BFD9 /* TTSService.m */,
+				9FA4C5E2222E20B2007CDDE2 /* TTSService.h */,
+				9FA4C5E3222E20B2007CDDE2 /* TTSService.m */,
 			);
 			path = TTSService;
 			sourceTree = "<group>";
@@ -403,6 +379,32 @@
 				9F1765032227CA0F00F4BFD9 /* ASRService.m */,
 			);
 			path = ASR;
+			sourceTree = "<group>";
+		};
+		9FA4C5D2222E12C9007CDDE2 /* TTS */ = {
+			isa = PBXGroup;
+			children = (
+				9FA4C5D3222E12C9007CDDE2 /* BDSSynthesizerStatusNotifications.h */,
+				9FA4C5D4222E12C9007CDDE2 /* BDSSpeechSynthesizerDelegate.h */,
+				9FA4C5D5222E12C9007CDDE2 /* BDS_EttsModelManagerInterface.h */,
+				9FA4C5D6222E12C9007CDDE2 /* BDSBuiltInPlayer.h */,
+				9FA4C5D7222E12C9007CDDE2 /* BDSMixedModeSynthesizer.h */,
+				9FA4C5D8222E12C9007CDDE2 /* BDSSpeechSynthesizer.h */,
+				9FA4C5D9222E12C9007CDDE2 /* BDSSpeechSynthesizerParams.h */,
+				9FA4C5DA222E12C9007CDDE2 /* BDSSynthesizerLogLevel.h */,
+				9FA4C5DB222E12C9007CDDE2 /* BDSTTSEventManager.h */,
+				9FA4C5DC222E12C9007CDDE2 /* BDSSpeechSynthesizerErrors.h */,
+			);
+			path = TTS;
+			sourceTree = "<group>";
+		};
+		9FA4C5DD222E2076007CDDE2 /* BDSClientLib */ = {
+			isa = PBXGroup;
+			children = (
+				9FA4C5DE222E2076007CDDE2 /* libBaiduSpeechSDK.a */,
+				9FA4C5DF222E2076007CDDE2 /* .gitignore */,
+			);
+			path = BDSClientLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -508,6 +510,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FA4C5E1222E2076007CDDE2 /* .gitignore in Resources */,
 				9F1764C3222785D600F4BFD9 /* .gitIgnore in Resources */,
 				9F1764A82227857800F4BFD9 /* Chinese_And_English_Text.dat in Resources */,
 				9F1764E82227C8FC00F4BFD9 /* bds_easr_dnn_wakeup_model.dat in Resources */,
@@ -517,7 +520,6 @@
 				9F1764EC2227C8FC00F4BFD9 /* bds_easr_mfe_dnn.dat in Resources */,
 				9F1764A72227857800F4BFD9 /* Chinese_And_English_Speech_Male.dat in Resources */,
 				9F1764EA2227C8FC00F4BFD9 /* bds_easr_input_model.dat in Resources */,
-				9F17649B222782A600F4BFD9 /* .gitignore in Resources */,
 				9F1764E92227C8FC00F4BFD9 /* bds_easr_gramm.dat in Resources */,
 				9F1764EF2227C8FC00F4BFD9 /* temp_license_2018-02-24.dat in Resources */,
 				9F14217222267F290009037D /* LaunchScreen.storyboard in Resources */,
@@ -555,8 +557,8 @@
 				9F14216A22267F190009037D /* ViewController.m in Sources */,
 				9F14217522267F290009037D /* main.m in Sources */,
 				9F14216722267F190009037D /* AppDelegate.m in Sources */,
-				9F1764C922278C3900F4BFD9 /* TTSService.m in Sources */,
 				9F1765042227CA0F00F4BFD9 /* ASRService.m in Sources */,
+				9FA4C5E4222E20B2007CDDE2 /* TTSService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -730,7 +732,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LFQH5WKM3T;
 				INFOPLIST_FILE = KouSuan/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -739,6 +741,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/KouSuan/ThirdCode/BDSClientLib",
 				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.com.KouSuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -752,7 +755,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LFQH5WKM3T;
 				INFOPLIST_FILE = KouSuan/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -761,6 +764,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/KouSuan/ThirdCode/BDSClientLib",
 				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.com.KouSuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

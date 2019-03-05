@@ -9,7 +9,13 @@
 #import "ViewController.h"
 #import "TTSService.h"
 
+#import "BDSEventManager.h"
+#import "BDSASRDefines.h"
+#import "BDSASRParameters.h"
+
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet UILabel *lb_result;
 
 @end
 
@@ -18,6 +24,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [[TTSService sharedInstance] speakSentence:@"1+1=几"];
+}
+
+- (IBAction)clickedStart:(id)sender {
+    
 }
 
 
